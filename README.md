@@ -1,39 +1,65 @@
-## React
+# Student Profile System
 
-This is a simple React application. This application serves as a basic template for a react applications.  
-This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
+## Description
 
-## How to run
+A React-based Student Profile System created for React Day 1 - Task 1.
 
-1. Before running the application, make sure all dependencies are installed. To install dependencies, run following command in terminal:
+This project demonstrates:
+- React components
+- JSX
+- JavaScript expressions
+- Props
+- Reusable components
+- Basic CSS styling
 
-   ```sh
-   npm install
-   ```
+## Components
 
-2. Once dependencies are installed, run the following command to start the application:
+### Header
+Displays the title "Student Management System".
 
-   ```sh
-   npm run dev
-   ```
+### StudentProfile
+A reusable component that receives student name, department, and year through props.
 
-3. Refresh the URL in simple browser to see the output.
+### Footer
+Displays "© 2026 Student Management System".
 
-## FAQs & Debugging
+## Student Details
 
-### 1. I do not see browser in my workspace
+### Student 1
+- Name: Anu
+- Department: CSE
+- Year: 3rd Year
 
-Studio will automatically open the app in a new browser tab. If not, you can use the following steps to open the simple browser
+### Student 2
+- Name: Bala
+- Department: Computer Science
+- Year: 3rd Year
 
-1. From VS Code command pallette(`Ctrl/Cmd + Shift + P`), run **Studio Manager: SimpleBrowser Default URL** command. This will open the app in a new browser tab.
+## Technologies Used
 
-2. Your app runs on hosted env which can be accessed using host id, port provided in file **.vscode/.studio/studio-env.json**. Use values to create the URL as follows:
-   `https://<STUDIO_HOST_ID>-3000.<STUDIO_DOMAIN>`
+- React
+- JavaScript
+- JSX
+- CSS
+- Vite
 
-### 2. Getting `vite: not found` error
+## Testing
 
-This means node_modules are missing in your workspace, please refer the 'How to run' section and make sure you have followed the steps in sequence
+The application was executed and verified successfully in the Nimbus environment.
 
-### 3. Can I use create-react-app instead Vite?
+The deployed application was tested to verify:
+- Header display
+- Student 1 details
+- Student 2 details
+- Props-based data display
+- Profile border and padding
+- Footer display
 
-Yes, you can use create-react-app instead Vite, the default workspace is loaded with Vite setup, you can remove the Vite dependencies, add create-react-app dependencies and update the scripts to start using create-react-app.
+## Demo
+
+Deployed application:
+https://sps-react-student-2026.bytexl.live/
+
+## GitHub
+
+https://github.com/nithisri735-cell/SPS_REACT
